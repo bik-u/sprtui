@@ -3,7 +3,7 @@ use std::sync::RwLock;
 use tauri_plugin_store::StoreExt;
 
 #[derive(Default)]
-pub struct AuthStateInner {
+pub struct ApiStateInner {
     pub auth_key: Option<String>,
 }
 
